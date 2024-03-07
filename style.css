@@ -1,0 +1,170 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #814144;
+}
+img {
+    padding-top: 0px;
+    padding: 0 930px 0 930px;
+    width: 150px;
+    position: absolute;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header img {
+    width: 150px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.hall {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.vetor {
+    position: fixed;
+    padding-left: 590px;
+}
+.apresentacao {
+    padding-top: 140px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60%;
+}
+.info {
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.espresso {
+    position: absolute;
+    padding-left: 600px;
+    top: 220px;
+}
+.cappucino {
+    position: absolute;
+    padding-left: 600px;
+    top: 350px;
+}
+.mocha {
+    position: absolute;
+    padding-left: 600px;
+    top: 450px;
+}
+.machiato {
+    position: absolute;
+    padding-left: 600px;
+    top: 565px;
+}
+.pao_d_queijo {
+    position: absolute;
+    padding-left: 600px;
+    top: 812px;
+}
+.croissant {
+    position: absolute;
+    padding-left: 600px;
+    top: 942px;
+}
+.bolo {
+    position: absolute;
+    padding-left: 600px;
+    top: 1042px;
+}
+.bauru {
+    position: absolute;
+    padding-left: 600px;
+    top: 1172px;
+}
+.cha_gelado{
+    position: absolute;
+    padding-left: 608px;
+    top: 1392px;
+}
+.cafe_gelado{
+    position: absolute;
+    padding-left: 590px;
+    top: 1492px;
+}
+.bebidas p {
+    color: rgb(233, 233, 233);
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comidas p {
+    color: rgb(233, 233, 233);   
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gelados p{
+    color: rgb(233, 233, 233);   
+    padding: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tela {
+    background-image: url(imagem/fundo\ cafézes.jpg);
+}
+.ulcom {
+    background-color: white;
+
+}
