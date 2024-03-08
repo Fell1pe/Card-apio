@@ -1,9 +1,12 @@
+
+/* css do cabeçalho, abaixo */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: relative;
 }
 li {
     float: left;
@@ -15,49 +18,36 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
-    background-color: #111;
-}
 .active {
     background-color: #814144;
 }
-img {
-    padding-top: 0px;
-    padding: 0 930px 0 930px;
-    width: 150px;
+li img{
+    width: 170px;
+    height: auto;
+    right: 30px;
     position: absolute;
 }
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0px;
     padding: 20px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
 
-header h1 {
-    font-size: 24px;
-    margin: 0;
-}
 
-header img {
-    width: 150px;
-}
 
+
+/* css do produtos abas li e afins, abaixo */
 main {
     max-width: 800px;
     margin: 0 auto;
 }
 
 section {
-    border: 1px solid #ddd;
+    border: 1px solid #928d8d;
     padding: 10px;
     margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.856);
 }
 
 h2 {
@@ -71,7 +61,6 @@ ul {
     padding: 0;
 }
 footer {
-    position: fixed;
     bottom: 0;
     text-align: center;
     padding: 20px;
@@ -82,8 +71,10 @@ footer {
     text-align: center;
 }
 .vetor {
-    position: fixed;
-    padding-left: 590px;
+    max-width: 130px;
+    height:auto;
+    margin: auto;
+    display: block;
 }
 .apresentacao {
     padding-top: 140px;
@@ -91,80 +82,92 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     height: 60%;
 }
-.info {
-    padding-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+
+
+
+
+/* css do produtos abas li e afins imagens, abaixo */
+.iten {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
 }
-.espresso {
-    position: absolute;
-    padding-left: 600px;
-    top: 220px;
-}
-.cappucino {
-    position: absolute;
-    padding-left: 600px;
-    top: 350px;
-}
-.mocha {
-    position: absolute;
-    padding-left: 600px;
-    top: 450px;
-}
-.machiato {
-    position: absolute;
-    padding-left: 600px;
-    top: 565px;
-}
-.pao_d_queijo {
-    position: absolute;
-    padding-left: 600px;
-    top: 812px;
-}
-.croissant {
-    position: absolute;
-    padding-left: 600px;
-    top: 942px;
-}
-.bolo {
-    position: absolute;
-    padding-left: 600px;
-    top: 1042px;
-}
-.bauru {
-    position: absolute;
-    padding-left: 600px;
-    top: 1172px;
-}
-.cha_gelado{
-    position: absolute;
-    padding-left: 608px;
-    top: 1392px;
-}
-.cafe_gelado{
-    position: absolute;
-    padding-left: 590px;
-    top: 1492px;
-}
-.bebidas p {
-    color: rgb(233, 233, 233);
-    padding: 0 20px 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.comidas p {
+.iten p {
     color: rgb(233, 233, 233);   
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.gelados p{
-    color: rgb(233, 233, 233);   
-    padding: 0 20px 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.iten img {
+    position: absolute;
+    max-width: 140px;
+    height: auto;
+    left: 600px;
+    top: 11px;
+}
+.iten img.cha {
+    left: 612px;
+    top: 25px;
 }
 .tela {
     background-image: url(imagem/fundo\ cafézes.jpg);
 }
-.ulcom {
-    background-color: white;
 
-}
+
+
+
+/* css do radapé*/
+.rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .coluna1 {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  .coluna2 {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  .coluna3 {
+    flex: 1 1 300px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  i {
+    margin-right: 5px;
+  }
+  .fa {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .coluna1, .coluna2, .coluna3 {
+      flex: 1 1 100%;
+      margin-right: 0;
+    }
+  }
+  
