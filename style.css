@@ -122,6 +122,10 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
   .container {
     max-width: 1200px;
@@ -130,15 +134,16 @@ footer {
     flex-wrap: wrap;
   }
   .coluna1 {
-    flex: 1 1 300px;
-    margin-right: 20px;
+    flex: 1 1 8px;
+    margin-right: 100px;
   }
   .coluna2 {
-    flex: 1 1 300px;
-    margin-right: 20px;
+    flex: 1 1 0px;
+    margin-right: 50px;
   }
   .coluna3 {
-    flex: 1 1 300px;
+    flex: 1 1 90;
+    margin-right: 50px;
   }
   p {
     margin-bottom: 10px;
